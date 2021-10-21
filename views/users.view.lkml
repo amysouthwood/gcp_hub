@@ -1,4 +1,4 @@
-# users without pii
+# users with out full location data
 
 view: users {
   sql_table_name: `looker-private-demo.thelook.users`
