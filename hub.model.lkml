@@ -5,3 +5,4 @@ connection: "thelook_bq"
 # include: "my_dashboard.dashboard.lookml"   # include a LookML dashboard called my_dashboard
 
 include: "/explores/explores.explore.lkml"
+include: "/explores/order_items_only.explore.lkml"
