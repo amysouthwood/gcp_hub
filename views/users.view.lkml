@@ -1,4 +1,5 @@
 # users with out full location data
+# comment
 
 view: users {
   sql_table_name: `looker-private-demo.thelook.users`
