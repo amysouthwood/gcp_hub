@@ -96,4 +96,10 @@ view: order_items {
     type: count
     drill_fields: [id]
   }
+
+  measure: count_completed_orders {
+    type: count_distinct
+    sql: ${order_id} ;;
+    filters: [status: "Complete"]
+  }
 }
